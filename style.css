@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    font-family: "Public Sans", sans-serif;
+ 
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.geral{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cor{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    gap: 20px;
+    height: 500px;
+   width: 1440px;
+    
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+
+.imagem{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 335px;
+    height: 430px;
+    
+   
+}
+.imagem .texto{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+   color:azure;
+}
+
+.imagem img{
+    border: 4px solid black;
+}
+
+@media(max-width: 1440px){
+    .geral{
+        max-width: 500px;
+        margin-bottom: 10px;
+
+    }
+
+    .container .ajuste .imagem{
+        
+        margin-bottom: 50px; 
+        
+    }
+     .ajuste .imagem{
+        
+        margin-bottom: 10px;
+
+    }
+
+    .cor{
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        gap: 20px;
+        height: 1860px;
+
+       box-sizing: border-box;
+       
+    }
+    
+}
